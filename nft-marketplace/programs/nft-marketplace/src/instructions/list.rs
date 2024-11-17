@@ -11,11 +11,11 @@ use crate::state::{Listing, Marketplace};
 pub struct List<'info> {
     #[account(mut)]
     pub maker: Signer<'info>,
-    #[account(
-        seeds = [b"marketplace", marketplace.name.as_bytes()],
-        bump = marketplace.bump
-    )]
-    pub marketplace: Account<'info, Marketplace>,
+    // #[account(
+    //     seeds = [b"marketplace", marketplace.name.as_bytes()],
+    //     bump = marketplace.bump
+    // )]
+    // pub marketplace: Account<'info, Marketplace>,
     pub maker_mint: InterfaceAccount<'info, Mint>,
     #[account(
         mut,
@@ -33,7 +33,7 @@ pub struct List<'info> {
     #[account(
             init,
             payer = maker,
-            seeds = [marketplace.key().as_ref(), maker_mint.key().as_ref()],
+            seeds = [ maker_mint.key().as_ref()],
             bump,
             space = Listing::INIT_SPACE,
         )]
