@@ -9,7 +9,7 @@ Revvek is a vehicle transferring protocol to make transferring ownership of vehi
 - It is time taking and often leads to lack of clarity for both buyer and seller
 
 ### Solution
-Revvek is a vehicle transferring protocol that allows users to transfer ownership of vehicles to other users using NDTs. It allows users to buy and sell vehicles and resell vehicles.
+Revvek is a vehicle transferring protocol that allows users to transfer ownership of vehicles to other users using NFTs. It allows users to buy and sell vehicles and resell vehicles.
 
 ### Features
 
@@ -18,6 +18,10 @@ Revvek is a vehicle transferring protocol that allows users to transfer ownershi
 - Allows users to resell vehicles
 
 ### Deployed
-[Deployed on Solana Devnet](https://revvek-svm.vercel.app/)
+Frontend made using [SvelteKit](https://svelte.dev/) and deployed using [Vercel](https://vercel.com/).
 
-*DEVNET PROGRAM ID* 9CR2SnBXi84kXwtLHqetdttE8LmrULTRZbDTVkqqiys7
+[Link](https://revvek-svm.vercel.app/)
+
+Devnet Program ID
+
+```9CR2SnBXi84kXwtLHqetdttE8LmrULTRZbDTVkqqiys7```
