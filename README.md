@@ -13,15 +13,17 @@ Revvek is a vehicle transferring protocol that allows users to transfer ownershi
 
 ### Features
 
-- Allows users to transfer ownership of vehicles to other users using NDTs
+- Allows users to transfer ownership of vehicles to other users using NFTs
 - Allows users to buy and sell vehicles
 - Allows users to resell vehicles
 
 ### Deployed
-Frontend made using [SvelteKit](https://svelte.dev/) and deployed using [Vercel](https://vercel.com/).
+Frontend made using [SvelteKit](https://svelte.dev/) and deployed using [Vercel](https://vercel.com/)
 
 [Link](https://revvek-svm.vercel.app/)
 
 Devnet Program ID
 
-```9CR2SnBXi84kXwtLHqetdttE8LmrULTRZbDTVkqqiys7```
+```
+9CR2SnBXi84kXwtLHqetdttE8LmrULTRZbDTVkqqiys7
+```
