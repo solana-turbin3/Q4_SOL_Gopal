@@ -1,0 +1,3 @@
+[submodule "revvek_svm"]
+	path = revvek_svm
+	url = https://github.com/GM-11/revvek_svm
